@@ -2,11 +2,11 @@
 //  AppDelegate.swift
 //  Mercado
 //
-//  Created by Jessica Alves on 20/10/22.
+//  Created by Jessica Alves on 01/10/22.
 //
 
 import UIKit
-
+import Firebase
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -14,6 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        Database.database().isPersistenceEnabled = true
         return true
     }
 
