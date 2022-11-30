@@ -1,6 +1,6 @@
 # Mercado
 Aplicativo para gerenciar uma lista de compras Online e Compartilhada. 
-O app em Swift contém autenticação utilizando o Firebase e o Realtime Database. 
+O app em Swift contém autenticação utilizando o Firebase e o Realtime Database. <br/>
 Suas funcionalidades: <br/>
 1 - Registro de Login. <br/>
 2 - Autenticação de usuário.<br/>
